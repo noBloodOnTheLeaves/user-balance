@@ -15,8 +15,21 @@
 
 ---
 
-## Команды из тестового
+## Команды 
 
 1. Создание пользователя `php artisan user:create "Bob Green" bob bob@gmail.com qwerty123`
 2. Начислить баланс `php artisan balance:operate bob credit 1000 "First topup"`
 3. Списать баланс `php artisan balance:operate bob debit 250 "Subscription"`
+
+## Front
+
+#### Авторизация
+
+![Dashboard Screenshot](public/screenshot_20260130_055228.jpg)
+
+#### Главная авторизованного пользователя
+
+![Dashboard Screenshot](public/screenshot_20260130_054410.jpg)
+
+#### История транзакций
+![Transaction history Screenshot](public/screenshot_20260130_054432.jpg)
