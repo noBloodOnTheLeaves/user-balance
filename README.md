@@ -6,7 +6,9 @@
 3. `make composer`
 4. `make key`
 5. `make migrate`
-6. `make worker` для теста команд начисления
+6. `make npm`
+7. `make vite` (если видите ошибку про Vite manifest)
+8. `make worker` для теста команд начисления
 
 ---
 
