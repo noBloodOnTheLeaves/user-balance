@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import { computed, onUnmounted, ref, watch } from 'vue';
 import { Head } from '@inertiajs/vue3';
+import { computed, onUnmounted, ref, watch } from 'vue';
+import { type UserBalanceTransaction } from '@/composables/useBalance';
 import AppLayout from '@/layouts/AppLayout.vue';
 import { type BreadcrumbItem } from '@/types';
-import { type UserBalanceTransaction } from '@/composables/useBalance';
 
 type PaginationMeta = {
     current_page: number;

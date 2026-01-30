@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import { computed, onMounted, onUnmounted } from 'vue';
 import { Head } from '@inertiajs/vue3';
+import { computed, onMounted, onUnmounted } from 'vue';
+import { useBalance } from '@/composables/useBalance';
 import AppLayout from '@/layouts/AppLayout.vue';
 import { dashboard } from '@/routes';
 import { type BreadcrumbItem } from '@/types';
-import { useBalance } from '@/composables/useBalance';
 
 const breadcrumbs: BreadcrumbItem[] = [
     {
